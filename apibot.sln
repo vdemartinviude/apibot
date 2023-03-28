@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheApiBot", "TheApiBot\TheApiBot.csproj", "{3277F722-6BD9-4BFA-AE83-4546A570C367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheApiWorker", "TheApiWorker\TheApiWorker.csproj", "{87E9E597-B5C8-406A-81C6-B738EA417F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3277F722-6BD9-4BFA-AE83-4546A570C367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3277F722-6BD9-4BFA-AE83-4546A570C367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3277F722-6BD9-4BFA-AE83-4546A570C367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3277F722-6BD9-4BFA-AE83-4546A570C367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E9E597-B5C8-406A-81C6-B738EA417F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E9E597-B5C8-406A-81C6-B738EA417F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E9E597-B5C8-406A-81C6-B738EA417F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E9E597-B5C8-406A-81C6-B738EA417F00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

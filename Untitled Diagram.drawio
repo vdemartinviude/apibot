@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T01:01:39.895Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="ZI0LCQMwm8VQ3PAE0hpq" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-09T01:17:05.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="Nr53HrQu0bexpwhSI284" version="21.3.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="637" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,6 +18,14 @@
         </mxCell>
         <mxCell id="sabLhN0r8eGrxlHRT0KH-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;IRequest&lt;/i&gt;&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DoAction(BaseRequestParameters param) : Task&amp;lt;RequestResult&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="414" y="780" width="386" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sabLhN0r8eGrxlHRT0KH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.01;exitY=0.224;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=23;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sabLhN0r8eGrxlHRT0KH-1" target="sabLhN0r8eGrxlHRT0KH-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="733" y="471" />
+              <mxPoint x="710" y="471" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="sabLhN0r8eGrxlHRT0KH-6" value="ChromeRPARobot" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="428" width="250" height="86" as="geometry" />
@@ -68,6 +76,9 @@
             <mxPoint x="242" y="518" as="sourcePoint" />
             <mxPoint x="450" y="580" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sabLhN0r8eGrxlHRT0KH-24" value="IEquatable" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="446" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
